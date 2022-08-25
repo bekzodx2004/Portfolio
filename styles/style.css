@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins-thin;
+  src: url(../fonts/Poppins/Poppins-Thin.ttf);
+}
+.sayt > .header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  max-width: 2560px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #d66d75, #e29587);
+  color: #fff;
+}
+.sayt > .header > h1 {
+  font-family: poppins-bold;
+}
+.sayt > .header > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sayt > .header > ul > li {
+  margin: 0 20px;
+  list-style: none;
+}
+.sayt > .header > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: poppins-thin;
+}
+.sayt > .header > ul > li > a:hover {
+  text-shadow: 0px 0px 5px black;
+  color: bisque;
+}
+.sayt > .about {
+  overflow: hidden;
+  padding-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.sayt > .about > img {
+  margin-top: 20px;
+  max-width: 150px;
+}
+.sayt > .about > div {
+  margin: 0 50px;
+  margin-top: 20px;
+}
+.sayt > .about > div > h1 {
+  font-family: poppins-thin;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.sayt > .skills {
+  max-width: 700px;
+  width: 90%;
+  margin-top: 100px;
+  padding-top: 80px;
+  margin: auto;
+}
+.sayt > .skills > div {
+  margin-bottom: 50px;
+}
+.sayt > .skills > h1 {
+  text-align: center;
+}
+.sayt > .projects {
+  margin-top: 50px;
+  padding-top: 70px;
+  background: linear-gradient(to left, #dd5e89, #f7bb97);
+}
+.sayt > .projects > h1 {
+  text-align: center;
+}
+.sayt > .projects > h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+}
+.sayt > .projects > .projects__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sayt > .projects > .projects__cards > .projects__cards__card {
+  background-color: #fff;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 220px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sayt > .projects > .projects__cards > .projects__cards__card > a > img {
+  max-height: 200px;
+}
+.sayt > .projects > .projects__cards > .projects__cards__card > h1 {
+  font-family: poppins-thin;
+  letter-spacing: 0;
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px;
+}
+.sayt > .contacts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.sayt > .contacts > a {
+  margin: 10px 20px;
+}
+.sayt > .contacts > a > i {
+  letter-spacing: 1px;
+}/*# sourceMappingURL=style.css.map */

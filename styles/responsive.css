@@ -1,0 +1,5 @@
+@media screen and (max-width: 576px) {
+  .sayt > .header {
+    position: unset;
+  }
+}/*# sourceMappingURL=responsive.css.map */
